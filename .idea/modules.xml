@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/reminder.iml" filepath="$PROJECT_DIR$/reminder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reminderserver/reminderserver.iml" filepath="$PROJECT_DIR$/reminderserver/reminderserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reminderweb/reminderweb.iml" filepath="$PROJECT_DIR$/reminderweb/reminderweb.iml" />
+    </modules>
+  </component>
+</project>

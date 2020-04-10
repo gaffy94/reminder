@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b0ade01-3b90-46e3-be37-c18eb60e3a03" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1a8NxR3sOJMz79L5swSlpx8TstG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/reminderserver/src/main/java/com/gaf/reminderserver/models" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gaf.reminderserver.utils" />
+      <recent name="com.gaf.reminderserver.models" />
+      <recent name="com.gaf.reminderserver.services" />
+      <recent name="com.gaf.reminderserver.dao" />
+      <recent name="com.gaf.reminderserver.entities" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/reminderserver/src/main/java/com/gaf/reminderserver/models" />
+      <recent name="$PROJECT_DIR$/reminderserver/src/main/java/com/gaf/reminderserver" />
+      <recent name="$PROJECT_DIR$/reminderserver/src/main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.PaymentReminderApplication">
+    <configuration name="PaymentReminderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="reminder" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gaf.reminder.PaymentReminderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReminderserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="reminderserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gaf.reminderserver.ReminderserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReminderwebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="reminderweb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gaf.reminderweb.ReminderwebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b0ade01-3b90-46e3-be37-c18eb60e3a03" name="Default Changelist" comment="" />
+      <created>1586113506643</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586113506643</updated>
+      <workItem from="1586113515735" duration="9499000" />
+      <workItem from="1586207265932" duration="15573000" />
+      <workItem from="1586447325465" duration="10295000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="609" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1586539993561">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="609" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1586539993561" />
+    <state x="515" y="223" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586166280695">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="515" y="223" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1586166280695" />
+    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup" timestamp="1586272727459">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1586272727459" />
+  </component>
+</project>

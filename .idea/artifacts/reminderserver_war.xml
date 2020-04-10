@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="reminderserver:war">
+    <output-path>$PROJECT_DIR$/reminderserver/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>reminderserver</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="tvc.war">
+      <element id="artifact" artifact-name="reminderserver:war exploded" />
+    </root>
+  </artifact>
+</component>
