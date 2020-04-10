@@ -1,0 +1,30 @@
+<nb-layout>
+    <nb-layout-column>
+      <nb-card>
+        <nb-card-body>
+          <div class="row h-100">
+            <div class="col-md-6 offset-md-3 ma">
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1" class="label">Email</label>
+                  <input type="email" nbInput fullWidth id="exampleInputEmail1" placeholder="Email" name="email"
+                    [(ngModel)]="username" status="basic" required>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="label">Password</label>
+                    <input type="password" nbInput fullWidth id="password" placeholder="**************" name="password"
+                      [(ngModel)]="password" status="basic" required>
+                  </div>
+                <button size="large" fullWidth nbButton shape="rectangle" status="primary" type="submit"
+                  (click)="login()">
+                  <nb-icon icon="log-in-outline" [options]="{ animation: { type: 'shake' } }"></nb-icon>Login
+                </button>
+              </form>
+            </div>
+          </div>
+        </nb-card-body>
+      </nb-card>
+    </nb-layout-column>
+  </nb-layout>
+  <ngx-spinner name="sp2"></ngx-spinner>
+  

@@ -1,0 +1,21 @@
+:host nb-card {
+    width: 800px;
+    max-width: 100%;
+    // height:calc(100vh - 2 * 2.5rem)
+    padding: 20px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow-y: auto;
+    height: 500px;
+  }
+  
+  .ma {
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  

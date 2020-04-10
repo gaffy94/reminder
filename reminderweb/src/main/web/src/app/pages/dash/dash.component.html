@@ -1,0 +1,24 @@
+<nb-layout>
+  <nb-layout-column>
+    <nb-card>
+        <nb-card-header>
+            <h3>List of Tenants</h3>
+            <span class="fr"><button nbButton shape="rectangle" status="primary" (click)="resetAll()">Reset All</button></span>
+        </nb-card-header>
+      <nb-card-body>
+        <nb-list>
+          <nb-list-item *ngFor="let ten of tenants">
+            <div class="row col-md-12">
+                <div class="col-md-4">
+               <p> {{ten.firstName}} {{ten.lastName}}</p>
+               <span>{{ten.email}} -  Apartment {{ten.aprtmntNumber}}</span>
+                </div>
+                <div class="col-md-4 offset-md-4 text-right">
+                    <nb-toggle [(checked)]="ten.paid" (click)="doToggle(ten)"></nb-toggle>
+                </div>
+              </div>
+          </nb-list-item>
+        </nb-list>
+      </nb-card-body>
+    </nb-card>
+  </nb-layout-column>
