@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b0ade01-3b90-46e3-be37-c18eb60e3a03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reminderserver/D:/reminder/logs/spring.log.2020-04-11.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reminderserver/src/main/appengine/app.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reminderserver/src/main/java/com/gaf/reminderserver/ServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reminderserver/src/main/webapp/WEB-INF/appengine-web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/reminderserver_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/reminderserver_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/reminderserver_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/reminderserver_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reminder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/reminder.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reminderserver/D:\reminder\logs/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/reminderserver/D:\reminder\logs/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reminderserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reminderserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reminderserver/src/main/java/com/gaf/reminderserver/services/NotifyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/reminderserver/src/main/java/com/gaf/reminderserver/services/NotifyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reminderserver/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/reminderserver/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reminderserver/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reminderserver/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7b0ade01-3b90-46e3-be37-c18eb60e3a03" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

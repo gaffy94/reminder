@@ -5,8 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod",
-    "build-deploy": "ng build --prod --base-href /tvc/ --deploy-url /tvc/",
-    "build-big": "node --max_old_space_size=4096 /usr/local/lib/node_modules/npm/bin/npm-cli.js run build --prod ",
+    "build-deploy": "ng build --prod",
+    "build-big": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
