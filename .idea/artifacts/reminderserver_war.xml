@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="tvc.war">
+    <root id="archive" name="reminder.war">
       <element id="artifact" artifact-name="reminderserver:war exploded" />
     </root>
   </artifact>

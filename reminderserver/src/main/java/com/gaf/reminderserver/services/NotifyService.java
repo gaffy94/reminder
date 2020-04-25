@@ -19,9 +19,9 @@ import java.util.Collections;
 
 @Service
 public class NotifyService {
-@Autowired
+    @Autowired
     EmailService emailService;
-@Autowired
+    @Autowired
     Environment environment;
 
     @Value("classpath:/mail.html")
@@ -30,30 +30,43 @@ public class NotifyService {
     @Autowired
     SMSService smsService;
 
-    public void doNotify(Tenants tenants){
-        System.out.println("Trying to add" +tenants);
+    public void doNotify(Tenants tenants) {
+        System.out.println("Trying to add" + tenants);
         EmailRequest request = new EmailRequest();
-        request.setSenderAddress("OLASTORE@gmail.com");
+        request.setSenderAddress("12ademuyiwa@gmail.com");
         request.setEmails(Collections.singletonList(tenants.getEmail()));
         String s = "";
         try {
-             s = IOUtils.toString(resourceFile.getInputStream());
+            s = IOUtils.toString(resourceFile.getInputStream());
         } catch (IOException e) {
             e.printStackTrace();
         }
-        request.setMessage(s.replace("{tenant}",tenants.getFirstName()+" "+tenants.getLastName()));
+        request.setMessage(s.replace("{tenant}", tenants.getFirstName() + " " + tenants.getLastName()));
         request.setSenderDisplayName("12 ADEMUYIWA STREET");
         request.setSubject("REMIDER - BILLS DUE");
         request.setTr_ref("MEP");
-        emailService.sendEmail(request);
+       Runnable target;
+       Thread th = new Thread(new Runnable() {
+           @Override
+           public void run() {
+               emailService.sendEmail(request);
+           }
+       });
+       th.start();
         String apiKey = environment.getProperty("SMS_API_KEY");
         SmsRequest smsRequest = new SmsRequest();
         smsRequest.setApi_token(apiKey);
-        smsRequest.setBody(environment.getProperty("SMS_MESSAGE").replace("{tenant}", tenants.getFirstName()+" "+tenants.getLastName()));
-        smsRequest.setDnd("4");
+        smsRequest.setBody(environment.getProperty("SMS_MESSAGE").replace("{tenant}", tenants.getFirstName() + " " + tenants.getLastName()));
+        smsRequest.setDnd("3");
         smsRequest.setFrom("REMINDER");
         smsRequest.setTo(tenants.getPhoneNumber());
-        smsService.doSendSms(smsRequest);
+       Thread ts = new Thread(new Runnable() {
+           @Override
+           public void run() {
+               smsService.doSendSms(smsRequest);
+           }
+       });
+      ts.start();
     }
 
 
