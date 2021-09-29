@@ -35,7 +35,7 @@
     "axios": "^0.19.1",
     "bootstrap": "^4.4.1",
     "core-js": "^3.6.4",
-    "datatables.net": "^1.10.20",
+    "datatables.net": "^1.11.3",
     "datatables.net-dt": "^1.10.20",
     "eva-icons": "^1.1.2",
     "file-saver": "^2.0.2",
