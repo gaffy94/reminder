@@ -53,7 +53,7 @@
     "rxjs": "^6.5.4",
     "sockjs-client": "^1.4.0",
     "stompjs": "^2.3.3",
-    "tinymce": "^5.1.6",
+    "tinymce": "^5.10.0",
     "tslib": "^1.9.0",
     "typeface-exo": "0.0.61",
     "xlsx": "^0.15.5",
